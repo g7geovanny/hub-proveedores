@@ -1,0 +1,43 @@
+main {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y proximity; */
+}
+
+main > section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+
+
+
+.section1{
+    background-image: url(../assets/imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section2{
+    background-image: url(../assets/imagen2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section3{
+    background-image: url(../assets/imagen3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section4{
+    background-image: url(../assets/imagen4.jpg);
+    background-size: cover;
+    background-position: center;
+}

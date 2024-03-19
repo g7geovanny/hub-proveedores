@@ -4,10 +4,10 @@ import React from 'react'
 const Componente3 = () => {
   return (
 
-    <div className=' bg-green-400'>
+    <div className=' bg-green-400 p-5'>
 
         <div className='p-10 flex flex-col space-y-5 justify-center items-center'>
-            <h2 className='text-4xl text-white font-extrabold'>Tu Banco en linea</h2>
+            <h2 className='text-4xl text-white font-extrabold'>Informacion en linea</h2>
             <p className='text-2xl text-white font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed m.</p>
 
         </div>

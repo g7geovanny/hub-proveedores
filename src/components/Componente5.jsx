@@ -3,7 +3,7 @@ import '../styles/slider2.css'; // Archivo de estilos donde definiremos las clas
 
 function App() {
   return (
-    <main className=''>
+    <main className='relative'>
 
       <section className='section1' id="section-1">
       </section>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-import video from "../assets/miVideo.mp4";
+import video from "../assets/video.mp4";
 
 
 
@@ -10,10 +10,12 @@ const Video = () => {
      width="100%"
       height="100%"
        playing={true}
-        controls={true}
-        loop={true}
-        muted={true}
-          url={video} />
+        controls={false}
+          loop={true}
+          muted={true}
+          url={video}
+          className="w-full h-full object-cover"
+          />
   )
 }
 

@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 
 import Navegacion from "./Navegacion";
-import uno from "../assets/imagen10.svg";
-import dos from "../assets/imagen11.svg";
-import tres from "../assets/imagen12.jpg";
 
+import fondo from "../assets/nuevo.svg";
+import presentacion from "../assets/presentacion.svg";
 import Video from "./Video";
+
+
+
+import uno from "../assets/lading.svg";
+
 
 
 
@@ -34,29 +38,40 @@ const [currentSlide, setCurrentSlide] = useState(0);
   return (
 
     <div className='slider-container'>
+
       <Navegacion/>
 
         <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
 
-          <div className="slide ">
+
+          <div className="slide relative ">
           
             <Video/>
           
           </div>
 
-          <div className="slide slideDos">
+
+          <div className="slide w-full">
+
+          <img className='w-full h-full object-cover' src={fondo} alt="" />
               
           </div>
 
-          <div className="slide slideTres">
-            
+
+          <div className="slide  w-full h-[30rem]">
+
+            <img className='w-full h-full object-cover' src={uno}  alt="" />
+  
           </div>
 
-          <div className="slide slideCuatro">
-              
+          <div className="slide  w-full h-[30rem]">
+
+            <img className='w-full h-full object-cover' src={presentacion}  alt="" />
+  
           </div>
 
-         </div>
+
+        </div>
 
 
         <button className="prev" onClick={goToPrevSlide}>Anterior</button>

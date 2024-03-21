@@ -19,7 +19,7 @@ const Componente1 = () => {
            
             <div className='p-5'>
 
-                <h1 className='font-extrabold text-2xl'>Que beneficios tiene la precalificacion</h1>
+                <h1 className='font-extrabold text-2xl'>Beneficios de la precalificacion</h1>
 
                 <p className='text-lg font-semibold mt-3 '>La precalificación ofrece varios beneficios tanto para los proveedores como para los compradores en el proceso de adquisición de bienes y servicios. Algunos de estos beneficios son:</p>
                 
@@ -65,7 +65,7 @@ const Componente1 = () => {
     <h1 className='font-extrabold text-2xl'>Corrupti delectus mollo aut.</h1>
 
     <p className='text-lg mt-3'>Lorem ipsum, dolor sit amet consectetur adipinima accusantium iure uasi itaque odit ipsum sunt!</p>
-    <p className='text-lg'>Lorem ipsum, dolor sit amet consectetur adipinima accusantium iure uasi itaque odit ipsum sunt!</p>
+    <p className='text-lg'>Lorem ipsum, dolor sit amet consectetur adipinima accusanti!</p>
 
     <button className='p-2 text-lg font-bold rounded-md mt-5 bg-lime-500 hover:bg-lime-600 transition-all duration-200 '>Conoce mas</button>
 

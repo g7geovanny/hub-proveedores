@@ -10,6 +10,10 @@ export default {
       scrollSnapType: {
         proximity: 'scroll-snap-type: proximity;',
       },
+      fontFamily:{
+        noto: ["Noto Sans Buhid"],
+        mono:["Red Hat Mono"]
+      }
     },
   },
   plugins: [],

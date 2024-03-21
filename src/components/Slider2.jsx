@@ -37,34 +37,39 @@ const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
 
-    <div className='slider-container'>
+    <>
 
       <Navegacion/>
+   
+
+    <div className='slider-container'>
+
+      
 
         <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
 
 
-          <div className="slide relative ">
+          <div className="slide">
           
             <Video/>
           
           </div>
 
 
-          <div className="slide w-full">
+          <div className="slide ">
 
-          <img className='w-full h-full object-cover' src={fondo} alt="" />
+            <img className='w-full h-full object-cover' src={fondo} alt="" />
               
           </div>
 
 
-          <div className="slide  w-full h-[30rem]">
+          <div className="slide">
 
             <img className='w-full h-full object-cover' src={uno}  alt="" />
   
           </div>
 
-          <div className="slide  w-full h-[30rem]">
+          <div className="slide ">
 
             <img className='w-full h-full object-cover' src={presentacion}  alt="" />
   
@@ -78,6 +83,8 @@ const [currentSlide, setCurrentSlide] = useState(0);
         <button className="next" onClick={goToNextSlide}>Siguiente</button>
 
     </div>
+
+    </>
 
 
   )

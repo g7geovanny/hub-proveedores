@@ -16,7 +16,7 @@ const Componente0 = () => {
 
     <div className='w-full m-auto p-10 flex flex-col bg-slate-200'>
 
-          <div className=' w-[85rem] m-auto bg-slate-300 flex justify-between items-center p-5 gap-5 '>
+          <div className=' w-12/12 m-auto bg-slate-300 flex justify-between items-center p-5 gap-5 '>
 
             <img className=' w-40 h-32' src={carrito} alt="imagen" />
 
@@ -33,7 +33,7 @@ const Componente0 = () => {
           </div>
 
 
-          <div className='w-[80rem] flex m-auto justify-between items-center p-10 mt-5  '>
+          <div className=' w-11/12 flex m-auto justify-between items-center p-5 mt-10  '>
 
             <div className='flex flex-col justify-center items-center space-y-3 '>
               <Link to="/factoraje-verde"><img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono1} alt="" /></Link>

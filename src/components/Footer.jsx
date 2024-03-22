@@ -2,7 +2,7 @@
 import React from 'react';
 import { useLocation } from "react-router-dom";
 
-import facebook from "../assets/iconoFacebook.svg";
+import facebook from "../assets/iconoFacebook.png";
 import youtube from "../assets/youtube.png";
 import tiktok from "../assets/tik-tok.png";
 import linkedln from "../assets/linkedin.png";
@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className={ colorFondo ? " bg-white" : " bg-green-400" }>
       <div className="container mx-auto p-5">
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-between ">
           <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-4">Enlaces Útiles</h3>
             <ul className="text-sm">
@@ -34,11 +34,11 @@ const Footer = () => {
           <div className="flex flex-col  items-center w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-4">Redes Sociales</h3>
             <ul className="flex gap-5">
-              <li><a href="#"><img className=' w-10 h-10 hover:w-12 hover:h-12 transition-all duration-200 ' src={facebook} alt="" /></a></li>
-              <li><a href="#"><img className=' w-10 h-10 hover:w-12 hover:h-12 transition-all duration-200 ' src={youtube} alt="" /></a></li>
-              <li><a href="#"><img className=' w-10 h-10 hover:w-12 hover:h-12 transition-all duration-200 ' src={tiktok} alt="" /></a></li>
-              <li><a href="#"><img className=' w-10 h-10 hover:w-12 hover:h-12 transition-all duration-200 ' src={linkedln} alt="" /></a></li>
-              <li><a href="#"><img className=' w-10 h-10 hover:w-12 hover:h-12 transition-all duration-200 ' src={instagram} alt="" /></a></li>
+              <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={facebook} alt="" /></a></li>
+              <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={youtube} alt="" /></a></li>
+              <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={tiktok} alt="" /></a></li>
+              <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={linkedln} alt="" /></a></li>
+              <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={instagram} alt="" /></a></li>
             </ul>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">

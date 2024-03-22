@@ -7,10 +7,7 @@ import presentacion from "../assets/presentacion.svg";
 import Video from "./Video";
 
 
-
 import uno from "../assets/lading.svg";
-
-
 
 
 import "../styles/slider.css";
@@ -21,9 +18,10 @@ const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
     { id: 1,   },
-    { id: 2,    },
+    { id: 2,   },
     { id: 3,   },
-    { id: 4,   }
+    { id: 4,   },
+    
   ];
 
   const goToNextSlide = () => {
@@ -44,24 +42,35 @@ const [currentSlide, setCurrentSlide] = useState(0);
 
     <div className='slider-container'>
 
-      
-
         <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
 
+        <div className="slide grid grid-cols-2 ">
 
-          <div className="slide">
-          
-            <Video/>
-          
+          <div className="degradado w-full h-full flex flex-col justify-center items-center space-y-7">
+
+            <h2 className='text-center font-extrabold text-white uppercase text-5xl'>Factoraje sostenible</h2>
+
+            <p className='font-extrabold text-center text-black text-2xl uppercase'>conoce los beneficios</p>
+
+            <div className='flex justify-center gap-5 '>
+              <div><p className='py-3 pr-2 border-r-4 border-slate-300 text-sm font-bold uppercase'>requisitos</p></div>
+              <div><p className='py-3 pr-2 border-r-4 border-slate-300 text-sm font-bold uppercase'>beneficios en la taza</p></div>
+              <div><p className='py-3 pr-2 border-r-4 border-slate-300 text-sm font-bold uppercase'>empresa sustentable</p></div>
+            </div>
+
           </div>
 
+          <div className=' relative '>
+            <Video/>
+          </div>
+
+      </div>
 
           <div className="slide ">
 
             <img className='w-full h-full object-cover' src={fondo} alt="" />
               
           </div>
-
 
           <div className="slide">
 
@@ -74,7 +83,6 @@ const [currentSlide, setCurrentSlide] = useState(0);
             <img className='w-full h-full object-cover' src={presentacion}  alt="" />
   
           </div>
-
 
         </div>
 

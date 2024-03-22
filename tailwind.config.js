@@ -13,6 +13,11 @@ export default {
       fontFamily:{
         noto: ["Noto Sans Buhid"],
         mono:["Red Hat Mono"]
+      },
+      colors:{
+        custom1: "#7ecf49",
+        custom2: "#04bbf1",
+        custom3: "#1d4370"
       }
     },
   },

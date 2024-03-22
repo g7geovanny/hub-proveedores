@@ -21,20 +21,19 @@ const Principal = () => {
 
     <Componente0/>
 
-    <div className=' w-full grid grid-cols-2 justify-center items-center p-5 contenedor '>
+    <div className=' w-full grid grid-cols-2 justify-center items-center  '>
 
+      <div className='contenedor flex flex-col items-center h-full p-8 px-20 '>
       <div className=' capa-transparente'></div>
 
-      <div className=' relative flex flex-col p-5 items-center '>
+        <h1 className=' relative text-3xl text-white font-extrabold mt-16 mb-10'>Lore que officiis. Motus pariatur hic!</h1>
 
-        <h1 className='text-3xl text-white font-extrabold mb-20'>Lore que officiis. Motus pariatur hic!</h1>
+        <p className='relative text-2xl text-white mb-10 mt-10'>Como líder mundial en soluciones innovadoras y sostenibles para la construcción, Holcim está haciendo posible tener ciudades más verdes, infraestructuras más inteligentes y mejorar el nivel de vida de las personas en todo el mundo.</p>
+        <p className='relative text-2xl text-white'>Con la sostenibilidad al centro de su estrategia, Holcim se está convirtiendo en una empresa net-zero, en donde su gente y sus comunidades son la base de su éxito.</p>
 
-        <p className='text-2xl text-white mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis at distinctio ea architecto, excepturi eos temporibus illo ipsam, in provident hic ullam tempore qui repudiandae culpa nesciunt inventore aut.</p>
-        <p className='text-2xl text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus reiciendis at distinctio ea architecto, excepturi eos temporibus illo ipsam, in provident hic ullam tempore qui repudiandae culpa nesciunt inventore aut.</p>
-
-        <div className=' flex justify-around w-1/2 mt-16 m-auto'>
-          <a className='text-white font-bold text-lg bg-green-500 p-3 rounded-md hover:bg-green-600 transition-all duration-200' href="#">Ver mas</a>
-          <a className='text-white font-bold text-lg bg-green-500 p-3 rounded-md hover:bg-green-600 transition-all duration-200 ' href="#">Contacto</a>
+        <div className=' relative flex justify-around w-1/2 mt-16 m-auto'>
+          <a className='text-white font-bold text-lg border-2 border-teal-300 bg-green-500 p-3 rounded-md hover:bg-green-600 transition-all duration-200 ' href="#">Ver mas</a>
+          <a className='text-white font-bold text-lg border-2 border-teal-300 bg-green-500 p-3 rounded-md hover:bg-green-600 transition-all duration-200 ' href="#">Contacto</a>
         </div>
 
       </div>

@@ -31,7 +31,7 @@ const Footer = () => {
             <p className="text-sm font-semibold">Correo: ejemplo@correo.com</p>
             <p className="text-sm font-semibold">Teléfono: 123-456-7890</p>
           </div>
-          <div className="flex flex-col  items-center w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
+          <div className="flex flex-col  items-center w-full md:w-1/2 lg:w-1/4 px-4  md:mb-0">
             <h3 className="text-lg font-bold mb-4">Redes Sociales</h3>
             <ul className="flex gap-5">
               <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={facebook} alt="" /></a></li>
@@ -41,16 +41,19 @@ const Footer = () => {
               <li><a href="#"><img className=' w-8 h-8 hover:w-12 hover:h-12 transition-all duration-200 ' src={instagram} alt="" /></a></li>
             </ul>
           </div>
-          <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
+          <div className="w-full md:w-1/2 lg:w-1/4 px-2 mb-4 md:mb-0">
             <h3 className="text-lg font-bold mb-4">Ubicación</h3>
             <p className="text-sm font-semibold">123 Calle Principal</p>
             <p className="text-sm font-semibold">Ciudad, País</p>
           </div>
-        </div>
-        <hr className="border-t border-white my-6" />
-        <div className="text-center">
+
+          <div className=" w-full flex justify-center items-center">
           <p className="text-sm font-semibold">&copy; 2024 Todos los derechos reservados</p>
         </div>
+
+        </div>
+      
+        
       </div>
     </footer>
   );

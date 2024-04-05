@@ -21,7 +21,7 @@ const Principal = () => {
 
     <Componente0/>
 
-    <div className=' w-full grid grid-cols-2 justify-center items-center  '>
+    <div className=' w-full grid grid-cols-2 justify-center items-center'>
 
       <div className='contenedor flex flex-col items-center h-full p-8 px-20 '>
       <div className=' capa-transparente'></div>
@@ -46,8 +46,6 @@ const Principal = () => {
      <Componente1/>
 
      <Componente2/>
-
-     <Componente3/>
 
      
     <Footer/>

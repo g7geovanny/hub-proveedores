@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import { Link } from "react-router-dom";
 import ReactPlayer from 'react-player'
 
 import Navegacion from "./Navegacion";
@@ -43,12 +44,15 @@ const [currentSlide, setCurrentSlide] = useState(0);
    
 
     <div className='slider-container'>
+     
+   
 
-          <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+          <div className="slider relative" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+
 
             <div className="slide grid grid-cols-2 ">
 
-              <div className="degradado w-full h-full flex flex-col justify-center items-center space-y-7">
+              <div className="degradado w-full h-full flex flex-col justify-center items-center space-y-12">
 
                 <h2 className='text-center font-extrabold text-white uppercase text-5xl'>Factoraje sostenible</h2>
 
@@ -59,6 +63,8 @@ const [currentSlide, setCurrentSlide] = useState(0);
                   <div><p className='py-3 pr-2 border-r-4 border-slate-300 text-sm font-bold uppercase'>beneficios en la taza</p></div>
                   <div><p className='py-3 pr-2 border-r-4 border-slate-300 text-sm font-bold uppercase'>empresa sustentable</p></div>
                 </div>
+
+                <Link to="/factoraje-verde" className='p-2 w-24 text-center border-white border-2 bg-black text-white rounded-sm hover:bg-slate-900 transition-all duration-200'>Ver</Link>
 
               </div>
 

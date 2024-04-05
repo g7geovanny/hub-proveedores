@@ -10,6 +10,11 @@ import icono3 from "../assets/proteger.png";
 import icono4 from "../assets/mapa.png";
 import icono5 from "../assets/calificacion.png";
 import icono6 from "../assets/destino.png";
+import iconoNuevo from "../assets/icono-nuevo.svg";
+import icono2Nuevo from "../assets/icono2-nuevo.svg";
+import icono3Nuevo from "../assets/icono3-nuevo.svg";
+import icono4Nuevo from "../assets/icono4-nuevo.svg";
+import icono5Nuevo from "../assets/icono5-nuevo.svg";
 
 const Componente0 = () => {
   return (
@@ -33,35 +38,27 @@ const Componente0 = () => {
           </div>
 
 
-          <div className=' w-11/12 flex m-auto justify-between items-center p-5 mt-10  '>
+          <div className=' w-2/3 flex m-auto justify-between items-center  mt-5  '>
 
             <div className='flex flex-col justify-center items-center space-y-3 '>
-              <Link to="/factoraje-verde"><img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono1} alt="" /></Link>
+              <Link to="/factoraje-verde"><img className=' bg-transparent w-16 h-16 hover:rotate-45 transition-all duration-300' src={iconoNuevo} alt="" /></Link>
               <p className='text-sm font-bold '>Factorage Verde</p>
             </div>
 
             <div className='flex flex-col justify-center items-center space-y-3 '>
-              <Link to="/requisitos-h&S"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono2} alt="" /></Link>
+              <Link to="/requisitos-h&S"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono2Nuevo} alt="" /></Link>
               <p className='text-sm font-bold '>Requisitos H & S </p>
             </div>
 
-            <div className='flex flex-col justify-center items-center space-y-3 '>
-              <Link to="/platicas-seguridad"><img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono3} alt="" /></Link>
-              <p className='text-sm font-bold '>Platicas de Seguridad</p>
-            </div>
 
             <div className='flex flex-col justify-center items-center space-y-3 '>
-              <Link to="/ivms"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono4} alt="" /></Link>
+              <Link to="/ivms"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono4Nuevo} alt="" /></Link>
               <p className='text-sm font-bold '>IVMS</p>
             </div>
 
-            <div className='flex flex-col justify-center items-center space-y-3 '>
-              <Link to="/precalificacion"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono5} alt="" /></Link>
-              <p className='text-sm font-bold '>Precalificacion</p>
-            </div>
 
             <div className='flex flex-col justify-center items-center space-y-3 '>
-              <Link to="/rutas"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono6} alt="" /></Link>
+              <Link to="/rutas"> <img className=' w-16 h-16 hover:rotate-45 transition-all duration-300' src={icono5Nuevo} alt="" /></Link>
               <p className='text-sm font-bold '>Rutas</p>
             </div>
 

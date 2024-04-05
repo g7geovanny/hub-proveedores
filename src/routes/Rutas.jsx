@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 const Rutas = () => {
   return (
     <>
-    <Navegacion titulo="rutas"/>
+    <Navegacion titulo="Rutas"/>
 
-    <h1 className='font-bold text-5xl text-center uppercase'>rutas</h1>
+    <h1 className='font-bold text-5xl text-center uppercase'>Rutas</h1>
 
     <Footer/>
     </>

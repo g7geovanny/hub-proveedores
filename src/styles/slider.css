@@ -40,6 +40,8 @@
   .degradado{
     background-color: #7ecf49; 
   /* Degradado */
-  background-image: linear-gradient(to right,  #7ecf49, #04bbf1, #1d4370);
+  background: linear-gradient(to right,  #7ecf49 15%  , #04bbf1 50% , #1d4370 );
   }
+
+
 

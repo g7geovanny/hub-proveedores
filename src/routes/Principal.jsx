@@ -56,7 +56,7 @@ const Principal = () => {
      <div className='w-full grid grid-cols-2 mt-10 mb-10 p-5'>
 
       <div className='flex flex-col justify-around p-5'>
-        <h2 className='text-2xl uppercase font-bold text-center'>nuestras ubucaciones</h2>
+        <h2 className='text-2xl uppercase font-bold text-center'>nuestras ubicaciones</h2>
         <p className='text-center text-lg'>Encuentra nuestros distintos puntos ubicados en todo mexico</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At doloremque aliquam omnis, modi dolore distinctio labore quidem quam possimus provident vitae a nulla fuga. Asperiores cum suscipit nemo itaque necessitatibus?</p>
       </div>

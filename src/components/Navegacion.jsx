@@ -24,7 +24,7 @@ const Navegacion = ({titulo}) => {
             <Link to="/"><img src={logo} alt="logo.svg"/></Link>
             <Link to="/" className=' text-lg font-semibold text-slate-700 uppercase'>Inicio</Link>
             <Link to="/precalificacion" href="#"   className=' text-lg font-semibold text-slate-700 uppercase' >Prevaloracion</Link>
-            <Link to="/factoraje-verde" href="#"  className=' text-lg font-semibold  text-slate-700 uppercase' >Factorage Verde</Link>
+            <Link to="/factoraje-verde" href="#"  className=' text-lg font-semibold  text-slate-700 uppercase' >Factoraje Verde</Link>
             <Link to="/requisitos-h&S" href="#"   className=' text-lg font-semibold  text-slate-700 uppercase' >H & S</Link>
         </nav>
 

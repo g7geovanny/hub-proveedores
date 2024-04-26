@@ -1,0 +1,21 @@
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boton{
+    color: black;
+    background-color: aliceblue;
+}
+
